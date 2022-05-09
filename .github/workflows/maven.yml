@@ -24,4 +24,4 @@ jobs:
         cache: maven
     - uses: nanasess/setup-chromedriver@v1
     - name: Test
-      run: mvn clean verify
+      run: mvn clean verify -q
